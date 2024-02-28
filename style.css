@@ -1,0 +1,98 @@
+
+.outer1,
+.outer2,
+.outer3 {
+  width: 300px;
+  margin: 20px;
+  border: 2px solid black;
+  padding: 15px;
+  box-shadow: 2px 2px 2px rgb(91, 86, 86);
+  border-radius: 8px;
+}
+.off {
+  background-color: red;
+  color: white;
+  display: inline-block;
+  height: 20px;
+  padding: px;
+}
+#container {
+  height: 500px;
+  width: 400px;
+  margin: auto;
+}
+.fd {
+  color: red;
+  margin-left: 20px;
+  display: inline-block;
+}
+.btn {
+  box-shadow: 2px 2px 2px rgb(91, 86, 86);
+  margin-left: 20px;
+  color: white;
+  background-color: red;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 330px;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px;
+  font-weight: bold;
+}
+.cut {
+  display: inline-block;
+  float: right;
+}
+ins {
+  text-decoration: none;
+}
+del {
+  opacity: 0.5;
+}
+.ttl {
+  margin-left: 150px;
+}
+
+.title::before,
+.title::after {
+  content: "";
+  height: 2px;
+  width: 143px;
+  background-color: black;
+  display: block;
+}
+.title {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  column-gap: 3px;
+}
+.tbl1 {
+  display: none;
+}
+.outer1:hover .tbl1 {
+  display: inline-block;
+}
+.outer1:hover,.outer2:hover, .outer3:hover{
+  border: 3px solid teal;
+}
+.tbl2 {
+  display: none;
+}
+.outer2:hover .tbl2 {
+  display: inline-block;
+}
+/* .outer2:hover {
+  border: 3px solid red;
+} */
+
+.tbl3 {
+  display: none;
+}
+.outer3:hover .tbl3 {
+  display: inline-block;
+}
+/* .outer3:hover {
+  border: 3px solid red;
+} */
